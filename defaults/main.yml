@@ -1,0 +1,6 @@
+---
+# defaults file for ansible_role_common
+redhat_common_package:
+  - nano
+  - mc
+  - net-tools

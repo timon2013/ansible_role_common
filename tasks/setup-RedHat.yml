@@ -1,0 +1,7 @@
+---
+
+- name: Install tools
+  yum:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ redhat_common_package }}"
